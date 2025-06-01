@@ -1,5 +1,13 @@
-actor {
-  public query func greet(name : Text) : async Text {
-    return "Hello, " # name # "!";
-  };
-};
+import _Debug "mo:base/Debug";
+
+actor DBank {
+  var _currentValue = 300;
+  _currentValue :=100;
+
+  let _id = 454545;
+
+  _Debug.print("Hello");
+  _Debug.print(debug_show(_currentValue));
+  _Debug.print(debug_show(_id));
+
+}
