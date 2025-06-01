@@ -9,5 +9,10 @@ actor DBank {
   _Debug.print("Hello");
   _Debug.print(debug_show(_currentValue));
   _Debug.print(debug_show(_id));
+  public func _topUP(){
+    _currentValue += 1;
+    _Debug.print(debug_show(_currentValue));
+    
+  };
 
 }
