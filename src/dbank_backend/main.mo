@@ -1,8 +1,8 @@
 import _Debug "mo:base/Debug";
-
+// _ is used to name var and let
 actor DBank {
   var _currentValue = 300;
-  _currentValue :=100;
+  _currentValue :=100; 
 
   let _id = 454545;
 
